@@ -38,7 +38,7 @@ const MusicPage = () => {
       // TODO: Open Pro Modal
       console.log(error);
     } finally {
-      router.refresh();
+      router.refresh(); // Rehydration
     }
   };
 
